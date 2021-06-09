@@ -12,10 +12,9 @@ function DrawConstellation(AStar) {
 
 // Draw line between Stars
 function DrawLine(AStar) {
-    if(AStar.c === 0 || AStar.m === 1) {
+    if(AStar.c === 0) {
         AStar.c++;
         line(AStar.x, AStar.y, x2, y2);
-        
     }
 
 }
